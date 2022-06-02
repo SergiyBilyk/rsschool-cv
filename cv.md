@@ -1,6 +1,6 @@
-# Sergiy Bilyk #
+# Sergiy Bilyk
 ## My Contact Info: ##
-* **Phone:** +3 8063 591 99 51
+* **Phone:** +38 063 591 99 51
 * **E-mail:** top-company@ukr.net
 * **GitHub:** SergiyBilyk
 
@@ -13,7 +13,7 @@ I am 36 years old, I have worked in many places. Last place of work, my own onli
 * CSS (beginner)
 * JavaScript (beginner)
 * Git/GitHub (beginner)
-* SPhotoshop, Illustrator
+* Photoshop, Illustrator
 
 ## Code Examples ##
 ```
