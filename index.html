@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Hello RsSchool</p>
+    <header class="header">
+        <img class="logo" src="./img/Logo_n.jpg" alt="logotype">
+        <nav class="nav">
+            <ul class="main-navigation">
+                <li class="main-navigation-white"><a href="#contacts">Contacts</a></li>
+                <li class="main-navigation-white"><a href="#summary">Summary</a></li>
+                <li class="main-navigation-white"><a href="#skills">Skills</a></li>
+                <li class="main-navigation-black"><a href="#code">Code</a></li>
+                <li class="main-navigation-black"><a href="#projects">Projects</a></li>
+                <li class="main-navigation-black"><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+        <div class="black"></div>
+        <div class="main-title">
+            <p>Front-End developer</p>  
+            <h1>Sergiy Bilyk</h1>
+        </div>
+        <div class="head-section"> 
+            <section class="section-contacts" id="contacts">
+                <h2>.</h2>
+                <ul class="contacts-main">
+                    <li>Kyiv, Ukraine</li>
+                    <li>Phone: +38 063 591 99 51</li>
+                    <li>E-mail: top-company@ukr.net</li>
+                    <li><a class="contacts-main-a" href="https://github.com/SergiyBilyk">GitHub: SergiyBilyk</a></li>
+                </ul>
+            </section>
+            <section class="section-about" id="summary">
+                <h2>Summary</h2>
+                <p><em>I am 36 years old, I have worked in many places. Last place of work, my own online store on automotive topics. In connection with recent events, the relevance in it is now minimal. Now need to learn something new again. A decision was made in segment IT, since, given the experience, this area is always developing and has relevance.</em></p>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div class="main-section">
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML (beginner)</li>
+                    <li>CSS (beginner)</li>
+                    <li>JavaScript (beginner)</li>
+                    <li>Git/GitHub (beginner)</li>
+                    <li>Photoshop, Illustrator</li>
+                </ul>
+            </section>
+            <section class="section-code" id="code">
+                <h2>Code Examples</h2>
+                <pre>
+                    <code>
+                    const products = [
+                    { name: "Radar", price: 1300, quantity: 4 },
+                    { name: "Scanner", price: 2700, quantity: 3 },
+                    { name: "Droid", price: 400, quantity: 7 },
+                    { name: "Grip", price: 1200, quantity: 9 },
+                    ];
+                    function calculateTotalPrice(productName) {
+                    let sum = 0;
+                    for (let key of products){
+                    if (key.name === productName ){
+                    sum = key.price * key.quantity} 
+                    }
+                    return sum;
+                    } 
+                    </code>
+                </pre>
+            </section>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <p><em>National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”</em></p>
+                <p><strong>Languages:</strong> English A1</p>
+            </section>
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <p><a class="projects-a" href="https://teh-auto.com.ua/">Tehauto</a></p>
+                <p><a class="projects-a" href="https://ru.code-basics.com/languages/html">Code-basics HTML</a><p>
+                <p><a class="projects-a" href="https://ru.code-basics.com/languages/css">Code-basics CSS</a></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-main">
+            <div class="footer footer-a">
+                <a href="https://github.com/SergiyBilyk">Github</a>
+            </div>
+            <div class="footer footer-text">
+                <p>2022</p>
+            </div>
+            <div class=" footer footer-logo">
+                <a href="https://rs.school/js/" target="_blank"><img class="footer-logo" alt="logo RsSchool" src="../rsschool-cv/img/icon/rs_school_js.svg"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="/rsschool-cv/script.js"></script>
     </body>
 </html>
