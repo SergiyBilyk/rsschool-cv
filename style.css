@@ -167,4 +167,6 @@ a {
 .section-contacts h2{
     color: black;
     margin-top: -50px;
+.nav {
+    color: red;
 }
