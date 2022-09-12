@@ -37,4 +37,4 @@ return sum;
 National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"
 
 ## Languages ##
-English - A2
+English - A1
